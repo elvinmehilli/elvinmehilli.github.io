@@ -15,11 +15,9 @@ You can find the source code for Jekyll at
 [jekyll](https://github.com/jekyll/jekyll)
 
 <ul>
-{% for member in site.data.members %}
+{% for qv in site.data.qv %}
   <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
+      {{ qv.Vendndodhja }}
   </li>
 {% endfor %}
 </ul>
