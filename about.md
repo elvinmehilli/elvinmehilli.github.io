@@ -15,9 +15,9 @@ You can find the source code for Jekyll at
 [jekyll](https://github.com/jekyll/jekyll)
 
 <ul>
-{% for qv in site.data.qv %}
+{% for njesia in site.data.qv %}
   <li>
-      {{ qv.Vendndodhja }}
+      {{ qv.njesia | uniq }}
   </li>
 {% endfor %}
 </ul>
