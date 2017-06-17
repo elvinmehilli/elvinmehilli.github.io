@@ -14,10 +14,11 @@ You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
 
+{% assign njesite = site.data.qv | map: "Njesia" %}
 <ul>
-{% for njesia in site.data.qv %}
+{% for njesia in njesite %}
   <li>
-      {{ qv.Njesia | uniq }}
+      {{ njesia }}
   </li>
 {% endfor %}
 </ul>
