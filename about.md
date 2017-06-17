@@ -14,7 +14,7 @@ You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
 
-{% assign njesite = site.data.qv | map: "ZAZ" | uniq %}
+{% assign njesite = site.data.qv | map: "Njesia" | uniq %}
 <ul>
 {% for njesia in njesite %}
   <li>
